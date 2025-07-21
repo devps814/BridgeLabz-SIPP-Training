@@ -1,93 +1,93 @@
-🚀 Bridgelabz Shiptraining Core Java Practice Repository
-Welcome to my Bridgelabz Shiptraining Core Java Practice repo! This project is a hands-on, self-driven collection of Java practice problems and solutions, designed to build solid foundations and sharpen advanced skills in Java. Whether you’re just starting your programming journey or aiming to master data structures and OOP, this repository is for you!
+🚀 Bridgelabz Shiptraining Core Java Programming
+Welcome to the Bridgelabz Shiptraining Core Java Programming repository! This project is a comprehensive journey from Java basics to advanced concepts, packed with hands-on exercises, real-world problems, and plenty of learning opportunities. Whether you're a beginner or looking to brush up on advanced Java, this repo is for you! 🌟
 
-📂 Branches and Structure
-This repository is organized into four branches, each tailored for targeted practice and learning:
+📁 Project Structure
+Arrays/: Practice problems on arrays, including searching, sorting, and manipulation.
+Control-Flow/: Exercises on loops, conditionals, and control statements.
+EXTRAS/: Bonus problems like calculators, games, and number theory.
+Java-Elements/: Core Java concepts—variables, data types, operators, conversions, and more.
+level-1/ & level-2/: Progressive challenges to test and improve your skills.
+Methods/: Problems focused on Java methods and modular programming.
+Strings/: String manipulation, searching, and formatting exercises.
+Each folder contains multiple .java files, each representing a unique problem or concept. 📚
 
-main: Central collection of Java exercises and examples.
-
-Core_java: Core Java fundamentals—covering essentials like data types, control flows, object-oriented programming, and exception handling.
-
-DSA: Practice questions focusing on Data Structures and Algorithms—arrays, linked lists, stacks, queues, sorting, searching, and more.
-
-OOps: Extensive problems on Object-Oriented Programming concepts—classes, inheritance, interfaces, polymorphism, encapsulation, and abstraction.
-
-In every branch, you will find multiple Java files dedicated to specific problems or concepts. All solutions are coded, tested, and briefly commented for clarity.
-
-🏗️ How the Repository Is Organized
-Topic-Based Folders: Questions and solutions are grouped by topic for easy access.
-
-Each File = One Problem: Each .java file tackles a unique coding challenge, from basic to advanced.
-
-Descriptive Naming: File names clearly reflect the problem addressed (for example, PrimeNumberChecker.java or ArrayReverse.java).
-
-Git Versioning: Source code and progress are tracked using Git. Multiple branches separate core topics, DSA, and OOP practice.
-
-💻 Getting Started
-1. Prerequisite: Java (JDK)
-Install Java (JDK) on your system.
-
-Download from the official Oracle site.
-
-Follow instructions suited to your OS.
-
-Set up environment variables (JAVA_HOME and update Path).
-
-2. Verify Your Installation
-
-bash
+🛠️ How This Repository Was Created
+Folder Structure: Organized by topic for easy navigation and progressive learning.
+Problem Solving: Each file was created to solve a specific Java problem, starting from basics (like sum of numbers) to advanced (like matrix operations).
+Naming Convention: Files are named to reflect the problem (e.g., Q1_VOTINGSTUDENTS.java, Q40_BMICalculator.java).
+Version Control: Managed using Git for tracking changes and collaboration.
+💻 Setting Up Java (JDK) on Your System
+Download JDK: Oracle JDK Download
+Install JDK: Follow the installation instructions for your OS.
+Set JAVA_HOME:
+Windows:
+Go to System Properties > Environment Variables
+Add JAVA_HOME variable pointing to your JDK folder
+Add %JAVA_HOME%\bin to your Path variable
+Mac/Linux: Add export JAVA_HOME=/path/to/jdk and export PATH=$JAVA_HOME/bin:$PATH to your .bashrc or .zshrc
+Verify Installation:
 java -version
 javac -version
-This will confirm your Java setup is correct.
-
-3. Running an Example File
-
-Navigate to the folder with the .java file.
-
-Compile:
-
-bash
+You should see the installed version numbers. ✅
+🏃‍♂️ How to Run Java Files
+Navigate to the folder containing your .java file using the terminal or command prompt.
+Compile the Java file:
 javac FileName.java
-Run:
-
-bash
+Run the compiled class:
 java FileName
-(Note: do not include .java in the run command.)
-
-🛠 Example Topics and Files
-Branch	Example File	Focus
-Core_java	LeapYearChecker.java	If-else, loops, control flow
-DSA	MergeSortImplementation.java	Sorting algorithms
-OOps	ShapeInheritance.java	Inheritance, abstraction in classes
-main	SimpleCalculator.java	Arithmetic operations, user input
-All files are well-commented for easy understanding.
-
-🌱 How To Contribute
-Fork this project to your GitHub.
-
-Create a new branch for any significant additions or changes.
-
-Commit your changes with clear messages.
-
-Push and create a pull request if you'd like to share your improvements!
-
-🔗 Helpful Resources
-Java Documentation
-
-Java Tutorials
-
-W3Schools Java Guide
-
+(Do not include .java in the run command!)
+🌐 Useful Links
+Java Official Documentation
+Java Tutorials by Oracle
+Learn Java Online (W3Schools)
+GitHub Docs
 Git Basics
+📝 How to Push Your Code to GitHub
+Initialize Git (if not already done):
+git init
+Add your files:
+git add .
+Commit your changes:
+git commit -m "Add new Java solutions"
+Connect to your GitHub repository:
+git remote add origin https://github.com/your-username/your-repo.git
+Push your code:
+git push -u origin main
+(Replace main with your branch name if different)
+📦 Example File Explanations
+Arrays/Q1_VOTINGSTUDENTS.java: Checks voting eligibility for students using arrays.
+Control-Flow/Q40_BMICalculator.java: Calculates BMI using control flow statements.
+EXTRAS/NumberGuessingGame.java: A fun game to guess a random number.
+Java-Elements/BasicCalculator.java: Demonstrates basic arithmetic operations in Java.
+Methods/Q13_STUDENTVOTECHECKER.java: Uses methods to check student voting eligibility.
+Strings/Q13_VowelConsonantCount.java: Counts vowels and consonants in a string.
+Each file is self-contained with comments explaining the logic. 📝
 
-🙏 Acknowledgements
-Thanks to Bridgelabz for guidance and inspiration, and to the online Java community! Practicing and sharing is the best way to grow together as programmers.
+🤝 Contributing
+Fork this repository 🍴
+Create a new branch for your feature or fix 🌿
+Commit your changes with clear messages 📝
+Push to your fork and submit a Pull Request 🚀
+🙌 Acknowledgements
+Thanks to Bridgelabz for the training and guidance!
+Inspired by the Java community and open-source contributors.
+🎉 Happy Coding! 🚀
+If you have any questions, feel free to open an issue or reach out. Let's learn and grow together! 💡
 
-Happy coding! If you spot an issue or want to collaborate, feel free to open an issue or reach out. Let’s keep learning together!
-
-Related
-This repository is organized into four main branches, each dedicated to a specific area:
-main: The default branch with the latest configurations and summaries of my practice sessions.
-Core_java: Contains all my Java practice questions, tackling fundamental and advanced Java concepts.
-DSA: Stores problems centered around data structures, algorithms, and their implementations.
-OOPs: Focuses on object-oriented programming principles, design patterns, and related exercises.
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Footer
